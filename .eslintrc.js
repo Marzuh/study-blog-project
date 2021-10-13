@@ -21,7 +21,9 @@ module.exports = {
   ],
   plugins: ['@typescript-eslint', 'vue-a11y', 'prettier', 'vue'],
   // add your custom rules here
+  'ignorePatterns': ['tailwind.config.js'],
   rules: {
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
     'prettier/prettier': ['error', { singleQuote: true, trailingComma: 'es5', printWidth: 100 }],
     'import/extensions': [
       'error',
@@ -41,6 +43,12 @@ module.exports = {
     'vue/max-attributes-per-line': 'off',
     'vue/component-name-in-template-casing': [1, 'kebab-case'],
   },
+  overrides: [{
+    'files': ['*.ts', '*.tsx'],
+    'rules': {
+      '@typescript-eslint/explicit-module-boundary-types': ['error'],
+    },
+  }],
   settings: {
     'import/core-modules': [
       '@nuxt/config',

@@ -1,7 +1,7 @@
 {
   "title": "Home",
   "titleTemplate": "| Bluise",
-  "welcomeText": "# Yo, I'm Bluise - A Nuxt.js & Netlify CMS boilerplate.\n\nAuthentic cred hoodie hashtag selfies. Raclette banjo cardigan cred. Kitsch XOXO lomo polaroid. Knausgaard put a bird on it four dollar toast leggings typewriter asymmetrical.",
+  "welcomeText": "# Hi, I'm Alex. Welcome to my first blog.\n\nI'm study IT in TalTech. Here I'll share my experience and works. This blog was made from template, so it will take some time to understand and modify all parts ;) Please be patient. Dunno why but my image doesn't appear here => So sad.",
   "logo": "/images/uploads/logo.svg",
   "icon": "/images/uploads/logo.png",
   "loadingColor": "#0b3765",
